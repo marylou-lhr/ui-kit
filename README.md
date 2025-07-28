@@ -4,7 +4,8 @@ A kit of responsive UI components that I will use <i>and wished i had used...</i
 ## Content
 ### Theme & style files
 The theme is minimalistic, making it easy to personalize it. <br>
-All CSS variables and basic classes (for flex, margins, paddings, font weights...) will be declared in a main file & every component will have its own style file like components on Angular
+All CSS variables and basic classes (for flex, margins, paddings, font weights...) will be declared in a main file & every component will have its own style file.
+I'm using the coolors.co contrast checker for components with their own background color and text color (e.g.  messages box).
 #### CSS Variables
 Colors
 * Primary : Main color
@@ -12,24 +13,22 @@ Colors
 * Background : Background color
 * Title : Title color
 * Text : Color for secondary text
-* Info : Background color for info messages
-* Error : Background color for error messages
-* Success : Background color for success messages
 * Shadow : Color used for shadows
 
 Basic classes
-* 5-10-15-30-50-100 margin classes
-* 5-10-15-30 padding classes
-* 400-500-600 font weights classes
-* 24-18-14-12 font size classes
-* flex class
-* flex & gap class (for img/svg next to text)
-* Centered content
-* Centered text
+* Container
+* 5-10-15-20-25-30-50-100 vertical & horizontal margin classes
+* 5-10-15-20-25-30 padding classes
+* 600 font weight class (bold)
+* Titles & paragraph font size classes
+* Flex
+* 5-10-15 gap classes
+* Flex directions
+* Center
+* Text alignments
 * Full height
 * Full width
-* Flex directions
-* Container
+
 ### Components
 List of UI components to include : <br />
 * Headers (every navbar is horizontal on big screens and vertical on small screens)
@@ -51,7 +50,7 @@ List of UI components to include : <br />
   * Product in the catalog
   * Product in the cart
 * Newsletter
-* Message box (for infos, success messages & errors messages)
+* Messages box (info, warning, success & error messages)
 ### Elements
 * Buttons & links
   * Normal button

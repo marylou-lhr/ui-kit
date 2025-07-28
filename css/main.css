@@ -1,0 +1,274 @@
+/* Colors */
+:root
+{
+	--background: #F5F5F5;
+
+	--primary: black;
+	--secondary: darkred;
+	--title: black;  /* Contrast : 19.26 (Super)    */
+	--text: #535353; /* Contrast : 7.06 (Very good) */
+	--shadow: grey;
+}
+
+/* Basic classes */
+/* Container */
+.container
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 15px 10px 10px 15px;
+}
+
+/* Margins */
+.v-margin-5
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.v-margin-10
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.v-margin-15
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.v-margin-20
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.v-margin-25
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.v-margin-30
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.v-margin-50
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.v-margin-100
+{
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+.h-margin-5
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.h-margin-10
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.h-margin-15
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.h-margin-20
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.h-margin-25
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.h-margin-30
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.h-margin-50
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.h-margin-100
+{
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+/* Padding */
+.padding-5
+{
+	padding: 5px;
+}
+
+.padding-10
+{
+	padding: 10px;
+}
+
+.padding-15
+{
+	padding: 15px;
+}
+
+.padding-20
+{
+	padding: 20px;
+}
+
+.padding-25
+{
+	padding: 25px;
+}
+
+.padding-30
+{
+	padding: 30px;
+}
+
+/* Text */
+.bold
+{
+	font-weight: 600;
+}
+
+h1
+{
+	font-size: 32px;
+}
+
+h2
+{
+	font-size: 28px;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+h4
+{
+	font-size: 18px;
+}
+
+h5
+{
+	font-size: 16px;
+}
+
+p
+{
+	font-size: 12px;
+}
+
+/* Flex */
+.flex
+{
+	display: flex;
+}
+
+/* Gaps */
+.gap-5
+{
+	display: flex;
+
+	gap: 5px;
+}
+
+.gap-10
+{
+	display: flex;
+
+	gap: 10px;
+}
+
+.gap-15
+{
+	display: flex;
+
+	gap: 15px;
+}
+
+/* Flex directions */
+.row
+{
+	flex-direction: row;
+}
+
+.row-reverse
+{
+	flex-direction: row-reverse;
+}
+
+.column
+{
+	flex-direction: column;
+}
+
+.column-reverse
+{
+	flex-direction: column-reverse;
+}
+
+/* Center */
+.full-center
+{
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+/* Text align */
+.text-align-left
+{
+	text-align: left;
+}
+
+.text-align-right
+{
+	text-align: right;
+}
+
+.text-align-center
+{
+	text-align: center;
+}
+
+.text-align-justify
+{
+	text-align: justify;
+}
+
+/* 100% */
+.full-height
+{
+	height: 100%;
+}
+
+.full-width
+{
+	width: 100%;
+}

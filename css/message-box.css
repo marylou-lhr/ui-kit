@@ -1,0 +1,56 @@
+/* Template
+*************************
+.name
+{
+	background-color: #;
+
+	color: #; 
+
+	border: 1px solid #;
+
+}
+*************************
+*/
+
+.message-box
+{
+	padding: 15px;
+
+	border-radius: 5px;
+}
+
+.warning
+{
+	background-color: #FFC8A6;
+
+	color: #652500; /* Contrast : 7.74 (Very good) */
+
+	border: 1px solid #BB6027;
+}
+
+.error
+{
+	background-color: #FFD5D5;
+
+	color: #870000; /* Contrast : 7.75 (Very good) */
+
+	border: 1px solid #FF3838;
+}
+
+.info
+{
+	background-color: #FFFCCD;
+
+	color: #585200; /* Contrast : 7.65 (Very good) */
+
+	border: 1px solid #CBBF20;
+}
+
+.success
+{
+	background-color: #D4FFDE;
+
+	color: #005A15;  /* Contrast : 7.75 (Very good) */
+
+	border: 1px solid #67BD7B;
+}
