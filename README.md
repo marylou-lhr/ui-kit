@@ -47,23 +47,19 @@ List of UI components to include : <br />
 * Timelines
   * Horizontal
   * Vertical
-* Product cards
-  * In the catalog
-  * In the cart
+* Cards
+  * Product in the catalog
+  * Product in the cart
 * Newsletter
-* Search bar
-* Info message (for infos, success messages & errors messages)
-### UI parts
-* Buttons
+* Message box (for infos, success messages & errors messages)
+### Elements
+* Buttons & links
   * Normal button
   * CTA button
-* Links (underline only on hover)
-* Input
-* Textarea (only height expands)
-* Fieldset
-* Select
+  * Link (underline only on hover)
+* Inputs (inputs, search bar, select, textarea)
 * Spinner
-* Progress bar
+* Progress charts
 
 ## Content that I might do in the future
 Making framework versions, I'm thinking of ReactJS & Angular for now.
