@@ -1,0 +1,23 @@
+.s-footer
+{
+	display: flex;
+
+	gap: 50px;
+
+	height: 100px;
+	width: 100%;
+
+	background-color: var(--secondary);
+
+	color: white;
+
+	align-items: center;
+	justify-content: right;
+}
+
+.s-footer svg
+{
+	margin-right: 30px;
+
+	fill: white;
+}
