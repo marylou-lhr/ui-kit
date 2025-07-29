@@ -5,8 +5,10 @@
 
 	font-family: Arial, Helvetica, sans-serif;
 
+	letter-spacing: .02em;
+
 	--primary: black;
-	--secondary: darkred;
+	--secondary: navy;
 	--title: black;  /* Contrast : 19.26 (Super)    */
 	--text: #535353; /* Contrast : 7.06 (Very good) */
 	--shadow: lightgrey;
