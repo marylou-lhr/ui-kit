@@ -9,23 +9,44 @@
 	border: 1px solid #;
 
 }
+
+.name svg
+{
+	fill: #;
+
 *************************
 */
 
 .message-box
 {
-	padding: 15px;
+	display: flex;
 
-	border-radius: 5px;
+	gap: 5px;
+
+	margin-bottom: 15px;
+	padding: 10px;
+
+	font-weight: 500;
+
+	border-radius: 10px;
+
+	box-shadow: 5px 5px 5px var(--shadow);
+
+	align-items: center;
 }
 
 .warning
 {
-	background-color: #FFC8A6;
+	background-color: #FFDDC8;
 
-	color: #652500; /* Contrast : 7.74 (Very good) */
+	color: #762B00; /* Contrast : 7.76 (Very good) */
 
-	border: 1px solid #BB6027;
+	border: 1px solid #DAB299;
+}
+
+.warning svg
+{
+	fill: #652500;
 }
 
 .error
@@ -34,7 +55,12 @@
 
 	color: #870000; /* Contrast : 7.75 (Very good) */
 
-	border: 1px solid #FF3838;
+	border: 1px solid #C99696;
+}
+
+.error svg
+{
+	fill: #870000;
 }
 
 .info
@@ -43,7 +69,12 @@
 
 	color: #585200; /* Contrast : 7.65 (Very good) */
 
-	border: 1px solid #CBBF20;
+	border: 1px solid #D8D49C;
+}
+
+.info svg
+{
+	fill: #585200;
 }
 
 .success
@@ -52,5 +83,10 @@
 
 	color: #005A15;  /* Contrast : 7.75 (Very good) */
 
-	border: 1px solid #67BD7B;
+	border: 1px solid #8CE0A0;
+}
+
+.success svg
+{
+	fill: #005A15;
 }

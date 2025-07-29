@@ -22,12 +22,14 @@ Basic classes
 * 600 font weight class (bold)
 * Titles & paragraph font size classes
 * Flex
-* 5-10-15 gap classes
+* 5-10-15-20-25-30 gap classes
 * Flex directions
-* Center
+* Centering classes
 * Text alignments
 * Full height
 * Full width
+* Lists
+* Icons
 
 ### Components
 List of UI components to include : <br />
