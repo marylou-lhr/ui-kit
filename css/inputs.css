@@ -1,0 +1,39 @@
+input
+{
+	margin-bottom: 15px;
+	padding: 5px;
+
+	font-family: inherit;
+	font-size: 14px;
+
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+input:focus
+{
+	outline: none;
+}
+
+
+input[type="reset"]
+{
+	padding: 5px;
+
+	background-color: white;
+
+	color: var(--secondary);
+
+	cursor: pointer;
+
+	border: 2px solid var(--secondary);
+}
+
+input[type="reset"]:hover
+{
+	background-color: whitesmoke;
+
+	color: rgb(1, 1, 88);
+
+	border: 2px solid rgb(1, 1, 88);
+}
