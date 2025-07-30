@@ -1,0 +1,111 @@
+.v-timeline:after
+{
+	position: absolute;
+
+	height: 100%;
+	height: 85%;
+	width: 5px;
+
+	top: 0;
+	left: 50%;
+	margin-left: -3px;
+	bottom: 0;
+
+	background-color: var(--primary);
+
+	content: "";
+}
+
+.v-timeline__container
+{
+	position: relative;
+	display: flex;
+
+	width: 45%;
+
+	padding: 15px 46px;
+}
+
+.v-timeline__container::after
+{
+	position: absolute;
+
+	height: 25px;
+	width: 25px;
+
+	top: 15px;
+	right: -15px;
+
+	background-color: white;
+
+	content: "";
+
+	border-radius: 50%;
+	border: 2px solid black;
+
+	z-index: 1;
+}
+
+.left
+{
+	flex-direction: row-reverse;
+
+	left: 0;
+}
+
+.left::before
+{
+	position: absolute;
+
+	height: 0;
+	width: 0;
+
+	top: 20px;
+	right: 30px;
+
+	content: "";
+
+	border: 1px solid lightgrey;
+}
+
+.left,
+.right
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.right
+{
+	left: 50%;
+}
+
+.right::before
+{
+	position: absolute;
+
+	height: 0;
+	width: 0;
+
+	top: 20px;
+	left: 30px;
+
+	content: "";
+
+	border: 1px solid lightgrey;
+}
+
+.right::after
+{
+	left: -16px;
+}
+
+.v-timeline__title
+{
+	margin-top: 0;
+}
+
+.left > div > .v-timeline__title
+{
+	justify-self: flex-end;
+}
