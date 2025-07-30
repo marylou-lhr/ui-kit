@@ -60,8 +60,7 @@ List of UI components to include : <br />
   * Link (underline only on hover)
 * Inputs (inputs, search bar, select, textarea)
 * Spinner
-* Progress charts
-* Bradcrumbs
+* Breadcrumbs
 
 ## Content that I might do in the future
 Making framework versions, I'm thinking of ReactJS & Angular for now.
