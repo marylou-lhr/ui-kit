@@ -1,0 +1,121 @@
+.s-header
+{
+	display: flex;
+
+	gap: 15px;
+
+	padding: 5px 0 5px 0;
+
+	border-bottom: 1px solid lightgray;
+
+	justify-content: space-around;
+}
+
+.s-header__title
+{
+	margin-right: 50px;
+}
+
+.s-header__pages
+{
+	display: flex;
+}
+
+.s-header__title h1 > a,
+.s-nav__link a
+{
+	color: var(--title);
+	text-decoration: none;
+}
+
+.s-nav
+{
+	display: flex;
+
+	align-items: center;
+}
+
+.s-nav ul
+{
+	display: flex;
+
+	gap: 30px;
+
+	padding-left: 0;
+
+	list-style: none;
+}
+
+.s-nav__link a:hover
+{
+	text-decoration: underline;
+}
+
+.s-search
+{
+	display: flex;
+
+	align-items: center;
+}
+
+.s-search input
+{
+	height: 30px;
+	width: 300px;
+
+	margin-bottom: 0;
+	padding: 15px;
+
+	background-color: whitesmoke;
+
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right: none;
+}
+
+.s-search button
+{
+	display: flex;
+
+	height: 32px;
+
+	margin-bottom: 0;
+
+	background-color: whitesmoke;
+
+	cursor: pointer;
+
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 1px solid lightgrey;
+	border-left: none;
+
+	align-items: center;
+}
+
+.s-search button > svg
+{
+	height: 2em;
+	width: 2em;
+
+	fill: grey;
+}
+
+.s-connect
+{
+	display: flex;
+
+	gap: 30px;
+
+	align-items: center;
+}
+
+.s-connect .btn
+{
+	margin-bottom: 0;
+	padding: 10px 20px 10px 20px;
+
+	font-weight: 600;
+
+	border-radius: 10px;
+}
