@@ -317,6 +317,17 @@ p
 	width: 100%;
 }
 
+/* Fit-content */
+.width-fit
+{
+	width: fit-content;
+}
+
+.height-fit
+{
+	height: fit-content;
+}
+
 /* Icon */
 svg
 {

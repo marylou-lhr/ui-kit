@@ -1,0 +1,51 @@
+.login__container
+{
+	display: flex;
+
+	flex-direction: column;
+
+	width: 150%;
+
+	align-items: center;
+}
+
+.login-btn
+{
+	width: 100%;
+}
+
+.login__links
+{
+	text-decoration: underline;
+}
+.login__info
+{
+	width: 100%;
+}
+
+.login__info input
+{
+	width: 97%;
+}
+
+.login__password--actions
+{
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.login__remember
+{
+	display: flex;
+
+	flex-direction: row-reverse;
+}
+
+.login__remember input[type=checkbox]
+{
+	width: fit-content;
+
+	margin-right: 10px;
+	margin-left: 0;
+}
