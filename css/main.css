@@ -304,6 +304,12 @@ p
 	text-align: justify;
 }
 
+/* Text decorations */
+.underline
+{
+	text-decoration: underline;
+}
+
 /* 100% */
 .full-height
 {

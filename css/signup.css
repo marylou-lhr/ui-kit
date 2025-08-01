@@ -1,0 +1,21 @@
+.signup__container
+{
+	display: flex;
+
+	flex-direction: column;
+
+	width: 100%;
+
+	align-items: center;
+}
+
+.signup__container div > input
+{
+	width: 98%;
+}
+
+.signup__container p
+{
+	margin-top: 0;
+	margin-bottom: 50px;
+}
