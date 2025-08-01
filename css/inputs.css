@@ -1,7 +1,7 @@
 input
 {
 	margin-bottom: 15px;
-	padding: 5px;
+	padding: 5px 0 5px 5px;
 
 	font-family: inherit;
 	font-size: 14px;
@@ -36,4 +36,19 @@ input[type="reset"]:hover
 	color: rgb(1, 1, 88);
 
 	border: 2px solid rgb(1, 1, 88);
+}
+
+textarea
+{
+	min-width: 300px;
+	max-width: 300px;
+
+	margin-bottom: 15px;
+	padding: 5px 0 5px 5px;
+
+	font-family: inherit;
+	font-size: 14px;
+
+	border-radius: 5px;
+	border: 1px solid lightgrey;
 }
