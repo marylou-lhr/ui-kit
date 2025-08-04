@@ -1,0 +1,63 @@
+.dropmenu
+{
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+
+	width: 130px;
+
+	background: white;
+
+	border: 1px solid #E5E5E5;
+}
+
+.dropsection
+{
+	position: relative;
+
+	width: 120px;
+
+	top: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid #E5E5E5 !important;
+}
+
+.dropsection:last-child
+{
+	margin-top: 0;
+
+	border: none !important;
+}
+.dropsub:hover .dropmenu,
+.dropsub .dropsub:hover .dropmenu
+{
+	display: flex;
+	visibility: visible;
+	opacity: 1;
+
+	flex-direction: column;
+	gap: 10px;
+}
+
+.dropsub .dropsub .dropmenu .dropsection
+{
+	position: relative;
+
+	width: fit-content;
+
+	top: 0;
+}
+
+.dropsub .dropsub .dropmenu
+{
+	position: absolute;
+	visibility: hidden;
+
+	width: 130px;
+
+	margin-top: -30px;
+	left: 120px;
+}
