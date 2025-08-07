@@ -1,0 +1,43 @@
+.checkout-evenly-space
+{
+	display: flex;
+
+	flex-direction: column;
+
+	justify-content: space-evenly;
+}
+
+.cart-table
+{
+	border: 1px solid lightgrey;
+}
+
+.cart-table thead th,
+.cart-table tbody td,
+.cart-table tfoot th,
+.cart-table tfoot td
+{
+	padding: 5px 10px;
+
+	border: 1px solid lightgrey;
+}
+
+.checkout-containers
+{
+	width: 100%;
+
+	padding: 30px 15px 30px 30px;
+
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+}
+
+.margin-right-15
+{
+	margin-right: 15px;
+}
+
+.checkout-container
+{
+	width: 75%;
+}
