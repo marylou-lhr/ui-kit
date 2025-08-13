@@ -4,40 +4,61 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign up</title>
-	<link href="../../../css/main.css" rel="main stylesheet" />
-	<link href="../../../css/inputs.css" rel="inputs stylesheet" />
-	<link href="../../../css/buttons-links.css" rel="button stylesheet" />
-	<link href="../../../css/signup.css" rel="signup stylesheet" />
+	<link href="../../../css/main.css" rel="stylesheet" />
+	<link href="../../../css/inputs.css" rel="stylesheet" />
+	<link href="../../../css/buttons-links.css" rel="stylesheet" />
+	<link href="../../../css/signup.css" rel="stylesheet" />
+	<link href="../../../css/message-box.css" rel="stylesheet" />
+	<script src="../../../js/forms/sign-up.js"></script>
 </head>
 <body>
 	<div class="container width-fit">
 		<h1>Sign up form</h1>
 		<div class="signup__container">
-			<div class="full-width margin-bottom-30">
-				<label for="first-name">First name</label>
-				<div>
-					<input type="text" id="first-name" />
+			<form action="" name="signup" id="signup-form" method="post">
+				<div id="msg-box"></div>
+				<div class="full-width margin-bottom-30">
+					<div>
+						<label for="first-name">First name</label>
+						<div>
+							<input type="text" id="first-name" name="first-name" placeholder="Ex : John" autocomplete="name" />
+							<p>3 characters min.</p>
+						</div>
+					</div>
+					<div>
+						<label for="last-name">Last name</label>
+						<div>
+							<input type="text" id="last-name" name="last-name" placeholder="Ex : Smith" />
+							<p>3 characters min.</p>
+						</div>
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<div>
+							<input type="email" id="email" name="email" placeholder="Ex : johnsmith@example.com" autocomplete="email" />
+							<p>Must contain a prefix, a @ and an email domain.</p>
+						</div>
+					</div>
+					<div>
+						<label for="pwd">Password</label>
+						<div>
+							<input type="password" id="pwd" name="pwd" />
+							<p>
+								Must contain 8-16 characters, including at least a capital letter, a number and a special character.
+							</p>
+						</div>
+					</div>
+					<div>
+						<label for="confirm-pwd">Confirm password</label>
+						<div>
+							<input type="password" id="confirm-pwd" name="confirm-pwd" />
+						</div>
+					</div>
 				</div>
-				<label for="last-name">Last name</label>
-				<div>
-					<input type="text" id="last-name" />
-				</div>
-				<label for="email">Email</label>
-				<div>
-					<input type="email" id="email" />
-				</div>
-				<label for="pwd">Password</label>
-				<div>
-					<input type="password" id="pwd" />
-				</div>
-				<label for="confirm-pwd">Confirm password</label>
-				<div>
-					<input type="password" id="confirm-pwd" />
-				</div>
-			</div>
-			<button type="button" class="btn cta-btn full-width">Sign up</button>
+				<button type="submit" class="btn cta-btn full-width" id="signup-btn">Sign up</button>
+			</form>
 			<p class="margin-bottom-30">
-				By creating an account, you accept the company's <a href="#" class="underline">Terms of Use</a> and <a href="#" class="underline">Privacy Policy</a>.
+				By creating an account, you accept the <a href="#" class="underline">Terms of Use</a> and the <a href="#" class="underline">Privacy Policy</a>.
 			</p>
 			<p>Already have an account? <a href="#" class="underline">Log in</a></p>
 		</div>

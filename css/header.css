@@ -66,8 +66,6 @@
 	margin-bottom: 0;
 	padding: 15px;
 
-	background-color: whitesmoke;
-
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 	border-right: none;
@@ -81,7 +79,7 @@
 
 	margin-bottom: 0;
 
-	background-color: whitesmoke;
+	background-color: WHITE;
 
 	cursor: pointer;
 

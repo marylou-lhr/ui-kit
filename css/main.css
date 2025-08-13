@@ -12,6 +12,8 @@
 	--title: black;  /* Contrast : 19.26 (Super)    */
 	--text: #535353; /* Contrast : 7.06 (Very good) */
 	--shadow: lightgrey;
+	--error: #870000;
+	--success: #005A15;
 }
 
 /* Basic classes */

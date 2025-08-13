@@ -9,13 +9,35 @@
 	align-items: center;
 }
 
+
 .signup__container div > input
 {
-	width: 98%;
+	width: 99%;
+
+	margin-bottom: 3px;
 }
 
 .signup__container p
 {
 	margin-top: 0;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.signup__input--err
+{
+	color: var(--error);
+
+	border: 2px solid var(--error);
+}
+
+.signup__input--err__hint
+{
+	color: var(--error);
+}
+
+.signup__input--ok
+{
+	color: var(--success);
+
+	border: 2px solid var(--success);
 }
